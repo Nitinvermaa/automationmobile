@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "passportNumber": {
+          "type": "string"
+        },
+        "emailId": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "number"
+        },
+        "skill": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "passportNumber",
+        "emailId",
+        "salary",
+        "skill"
+      ]
+    }
+  ]
+}
